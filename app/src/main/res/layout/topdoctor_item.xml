@@ -1,0 +1,82 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="24dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="24dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/doc_row_background">
+
+    <ImageView
+        android:id="@+id/imageViewdoc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/equipo_medico" />
+
+    <TextView
+        android:id="@+id/textViewdocnom6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Dr. jack willson"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageViewdoc3"
+        app:layout_constraintTop_toTopOf="@+id/imageViewdoc3" />
+
+    <TextView
+        android:id="@+id/textViewdocesp7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gynecologist and surgeon"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewdocnom6"
+        app:layout_constraintTop_toBottomOf="@+id/textViewdocnom6" />
+
+    <ImageView
+        android:id="@+id/imageViewclock4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewdoc3"
+        app:layout_constraintStart_toStartOf="@+id/textViewdocesp7"
+        app:layout_constraintTop_toBottomOf="@+id/textViewdocesp7"
+        app:srcCompat="@drawable/clock" />
+
+    <TextView
+        android:id="@+id/textViewclock8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="09:25 AM- 13:30 PM"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewclock4"
+        app:layout_constraintStart_toEndOf="@+id/imageViewclock4"
+        app:layout_constraintTop_toTopOf="@+id/imageViewclock4" />
+
+    <TextView
+        android:id="@+id/buttondoc"
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/appointment_btn_background"
+        android:gravity="center"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:text="Agendar"
+        android:textColor="#b55db8"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewclock8"
+        app:layout_constraintStart_toEndOf="@+id/textViewclock8"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

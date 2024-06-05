@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">DemoYO</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_miscitas">Mis citas</string>
+    <string name="title_seguros">Seguros</string>
+    <string name="title_tramites">Trámites</string>
+    <string name="title_agendar">Agendar</string>
+    <string name="title_tienda">Tienda</string>
+    <string name="title_proximascitas">Programaciones</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="tittle_bienvenido">!Que gusto verte en el app Salud UPN!</string>
+    <string name="placeholder_correo">Ingresa tu correo</string>
+    <string name="placeholder_contrasena">Ingresa tu contraseña</string>
+    <string name="label_recuperar_contrasena">Recuperar contraseña</string>
+    <string name="label_quieroserusuario">Quiero ser usuario</string>
+    <string name="text_btn_ingresar">Ingresar</string>
+
+    <string name="label_perfil_datospersonales">Datos personales</string>
+    <string name="label_perfil_datospersonales_nombre">Nombres y apellidos</string>
+    <string name="label_perfil_datospersonales_fechanac">Fecha de nacimiento</string>
+    <string name="label_perfil_informaciondecontacto">Información de contacto</string>
+    <string name="label_perfil_informaciondecontacto_correo">Correo electrónico</string>
+    <string name="label_perfil_informaciondecontacto_celular">Celular</string>
+    <string name="label_perfil_direcciondevivienda">Dirección de vivienda</string>
+    <string name="label_perfil_direcciondevivienda_direccion">Dirección</string>
+    <string name="label_perfil_direcciondevivienda_ubicacion">Ubicación</string>
+    <string name="label_perfil_eliminarusuario">Eliminar usuario de App Salud UPN</string>
+    <string name="label_perfil_cerrarsesión">Cerrar sesión</string>
+    <string name="profile">Mi información</string>
+
+    <string name="tamanio_subtitulo_perfil">35sp</string>
+    <string name="tamanio_subtitulo_perfil2">30sp</string>
+    <string name="tamanio_subtitulo_perfil3">15sp</string>
+    <string name="tamanio_subtitulo_perfil4">18sp</string>
+
+</resources>

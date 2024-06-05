@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/navigation_miscitas"
+        android:icon="@drawable/estetoscopio"
+        android:title="@string/title_miscitas" />
+    <item
+        android:id="@+id/navigation_agendar"
+        android:title="@string/title_agendar" />
+    <item
+        android:id="@+id/navigation_proximascitas"
+        android:icon="@drawable/lista_del_portapapeles"
+        android:title="@string/title_proximascitas" />
+    <item
+        android:id="@+id/navigation_perfil"
+        android:icon="@drawable/usuario24"
+        android:title="@string/title_perfil" />
+</menu>
